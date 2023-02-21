@@ -22,13 +22,8 @@ a {
 a:hover {
   color: #535bf2;
 }
-
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 100px;
 }
 
 h1 {
@@ -54,6 +49,18 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.block{
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block h2{
+  color: white;
+  font-size: 40px;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -66,4 +73,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.light{
+  background-color: gray;
+}
+.dark{
+  background-color: #1a1a1a;
+  color: white;
 }
